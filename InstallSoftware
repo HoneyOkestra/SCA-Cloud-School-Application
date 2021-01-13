@@ -1,4 +1,6 @@
 # Verify that you have all required tools
+sudo apt-get install curl
+sudo apt-get install wget
 sudo apt-get install python g++ make checkinstall fakeroot
 # Create tmp dir and switch to it
 src=$(mktemp -d) && cd $src
